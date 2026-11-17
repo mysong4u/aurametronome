@@ -60,7 +60,7 @@ ios_target.build_configurations.each do |config|
   config.build_settings['SDKROOT'] = 'iphoneos' # Force iOS SDK
   config.build_settings['SUPPORTED_PLATFORMS'] = 'iphoneos iphonesimulator' # Set iOS platforms
   config.build_settings['MARKETING_VERSION'] = '1.0.0'
-  config.build_settings['CURRENT_PROJECT_VERSION'] = '4'
+  config.build_settings['CURRENT_PROJECT_VERSION'] = '6'
   config.build_settings['DEVELOPMENT_TEAM'] = 'Q9YC9DLD52'
   config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
   config.build_settings['ASSETCATALOG_COMPILER_APPICON_NAME'] = 'AppIcon'
@@ -89,7 +89,7 @@ watch_target.build_configurations.each do |config|
   config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
   config.build_settings['ASSETCATALOG_COMPILER_APPICON_NAME'] = 'WatchAppIcon'
   config.build_settings['MARKETING_VERSION'] = '1.0.0'
-  config.build_settings['CURRENT_PROJECT_VERSION'] = '4'
+  config.build_settings['CURRENT_PROJECT_VERSION'] = '6'
   config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
   config.build_settings['SKIP_INSTALL'] = 'YES' # The watch target is nested, so skip independent install!
   config.build_settings['WATCHOS_DEPLOYMENT_TARGET'] = '10.0'
