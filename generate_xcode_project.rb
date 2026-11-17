@@ -46,6 +46,11 @@ ios_target.build_configurations.each do |config|
   config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = "com.air.#{project_name}"
   config.build_settings['PRODUCT_NAME'] = project_name
   config.build_settings['GENERATE_INFOPLIST_FILE'] = 'YES'
+  config.build_settings['INFOPLIST_KEY_UIApplicationSceneManifest_Generation'] = 'YES'
+  config.build_settings['INFOPLIST_KEY_UILaunchScreen_Generation'] = 'YES'
+  config.build_settings['INFOPLIST_KEY_UIRequireFullScreen'] = 'YES'
+  config.build_settings['INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone'] = 'UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight'
+  config.build_settings['INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad'] = 'UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight'
   config.build_settings['INFOPLIST_KEY_UIRequiredDeviceCapabilities'] = 'arm64' # Correct for iOS
   config.build_settings['SWIFT_VERSION'] = '5.0'
   config.build_settings['TARGETED_DEVICE_FAMILY'] = '1,2' # iPhone & iPad
@@ -59,6 +64,7 @@ ios_target.build_configurations.each do |config|
   config.build_settings['DEVELOPMENT_TEAM'] = 'Q9YC9DLD52'
   config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
   config.build_settings['ASSETCATALOG_COMPILER_APPICON_NAME'] = 'AppIcon'
+  config.build_settings['ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME'] = 'AccentColor'
   config.build_settings['INFOPLIST_KEY_CFBundleIconName'] = 'AppIcon'
 end
 
@@ -67,6 +73,7 @@ watch_target.build_configurations.each do |config|
   config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = "com.air.#{project_name}.watchapp"
   config.build_settings['PRODUCT_NAME'] = "#{project_name} Watch App"
   config.build_settings['GENERATE_INFOPLIST_FILE'] = 'YES'
+  config.build_settings['ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME'] = 'AccentColor'
   
   # Note: INFOPLIST_KEY_UIRequiredDeviceCapabilities is intentionally omitted for watchOS Target to satisfy watchOS 27+ installation checks.
   
