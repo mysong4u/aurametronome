@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F665CB4CCFB1EDD7E9411A2 /* AuraMetronome Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1FFB307EF3CFD2124F2CBB5E /* AuraMetronome Watch App.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		32FB94B7760108A4C7AD01AD /* MetronomeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F5718AC986EAB1D9846960 /* MetronomeEngine.swift */; };
-		3F93CA6E8236728E52E39B68 /* WatchAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158FE737FAB5753E70730BBA /* WatchAssets.xcassets */; };
-		6251965EE0764940E8DB7EC2 /* AuraMetronomeiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536CFBD5F519CFBC05D718C /* AuraMetronomeiOSApp.swift */; };
-		6F7A29C7609A94396CECCB70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3114DAA69BEBF0597C4D0C0 /* Foundation.framework */; };
-		8D54E1A3BD58BD32E1FA6B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7583874F23D61C10CE3BEEF4 /* Assets.xcassets */; };
-		A8BC37687F775FD8D1370361 /* AuraMetronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D7B2AEE7D7B4AD4C897A4 /* AuraMetronomeApp.swift */; };
-		BE1889F45EFB4106CD6CD824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FC3380959FAB7EBE4C499E /* Foundation.framework */; };
-		CBE8AD1EB1C26781F1A24FD6 /* MainMetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B60652A572BFB2BC14A06 /* MainMetronomeView.swift */; };
+		0E0CE173A1A5F6125A0FF17B /* AuraMetronomeiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB545ECE0ADC42AE6E7FB709 /* AuraMetronomeiOSApp.swift */; };
+		3FAA8A941B5AD4D3F5F3718E /* MainMetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B7F35DFEC45750AE4EA4 /* MainMetronomeView.swift */; };
+		3FF03EDAA6CD8E4EFB5282A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05866562672A7AF37A79F96A /* Foundation.framework */; };
+		44D9FEDB726AC557DE5FFC2D /* AuraMetronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B134F9DAB2E55F6B1872806 /* AuraMetronomeApp.swift */; };
+		4EBC457FF31DCE56B929AB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0AC2B12AD8A1CC15434FB8 /* Assets.xcassets */; };
+		9037F9C6C1923E853C547284 /* MetronomeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A2C98218B97CC12D2E75 /* MetronomeEngine.swift */; };
+		B06B79D62716A2BACFF4D1F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B002D713D6D9BF182360E40 /* Foundation.framework */; };
+		D54E5E15DC94CF5A6C657E63 /* AuraMetronome Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 89A2222A1B20439EB321C524 /* AuraMetronome Watch App.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DA1358C9F1F275AE93C82080 /* WatchAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AA95198678F937309983FD /* WatchAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5ABB629BC37CC05BB95A6AAF /* PBXContainerItemProxy */ = {
+		F1A85BA0691E83BEF5A2B868 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 808DB9CD4BA5BAD863E0DD97 /* Project object */;
+			containerPortal = 1BFB8B386095998F5F922896 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 797057089AF4A3B974D4B67F;
+			remoteGlobalIDString = 5F6FB57EC1D752D2B92E23B3;
 			remoteInfo = "AuraMetronome Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CAE0ED0505A839E03A559C82 /* Embed Watch Content */ = {
+		85DE58B0EAC0E97E3506E960 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				1F665CB4CCFB1EDD7E9411A2 /* AuraMetronome Watch App.app in Embed Watch Content */,
+				D54E5E15DC94CF5A6C657E63 /* AuraMetronome Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,105 +43,105 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		158FE737FAB5753E70730BBA /* WatchAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = WatchAssets.xcassets; sourceTree = "<group>"; };
-		1FFB307EF3CFD2124F2CBB5E /* AuraMetronome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuraMetronome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D2D7D14003B1322993340FF /* AuraMetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraMetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6536CFBD5F519CFBC05D718C /* AuraMetronomeiOSApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraMetronomeiOSApp.swift; sourceTree = "<group>"; };
-		6C3D7B2AEE7D7B4AD4C897A4 /* AuraMetronomeApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraMetronomeApp.swift; sourceTree = "<group>"; };
-		7583874F23D61C10CE3BEEF4 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		782B60652A572BFB2BC14A06 /* MainMetronomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainMetronomeView.swift; path = Views/MainMetronomeView.swift; sourceTree = "<group>"; };
-		93F5718AC986EAB1D9846960 /* MetronomeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetronomeEngine.swift; path = Models/MetronomeEngine.swift; sourceTree = "<group>"; };
-		A3114DAA69BEBF0597C4D0C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B0FC3380959FAB7EBE4C499E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		05866562672A7AF37A79F96A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		11AA95198678F937309983FD /* WatchAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = WatchAssets.xcassets; sourceTree = "<group>"; };
+		3E45B7F35DFEC45750AE4EA4 /* MainMetronomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainMetronomeView.swift; path = Views/MainMetronomeView.swift; sourceTree = "<group>"; };
+		4B134F9DAB2E55F6B1872806 /* AuraMetronomeApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraMetronomeApp.swift; sourceTree = "<group>"; };
+		5A0AC2B12AD8A1CC15434FB8 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B002D713D6D9BF182360E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		89A2222A1B20439EB321C524 /* AuraMetronome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuraMetronome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2D18F1F3A38D0D8864F33B /* AuraMetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraMetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB545ECE0ADC42AE6E7FB709 /* AuraMetronomeiOSApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraMetronomeiOSApp.swift; sourceTree = "<group>"; };
+		F474A2C98218B97CC12D2E75 /* MetronomeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetronomeEngine.swift; path = Models/MetronomeEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C45CAF34884C7EEF973459B /* Frameworks */ = {
+		4C60544B4FDB6C3C753AADBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1889F45EFB4106CD6CD824 /* Foundation.framework in Frameworks */,
+				3FF03EDAA6CD8E4EFB5282A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D86E5A46EE049471368679A4 /* Frameworks */ = {
+		748FDB40B01390EA9975CC0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7A29C7609A94396CECCB70 /* Foundation.framework in Frameworks */,
+				B06B79D62716A2BACFF4D1F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BA8A2052F1F9D64E01E0798 = {
+		012DD66D41286311EAD6511D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BF30324355B0713FB7DA47F2 /* Products */,
-				D27F0DC2EFD463FA68C5123B /* Frameworks */,
-				F6C98471DD0268B0F8237A9C /* Sources */,
-			);
-			sourceTree = "<group>";
-		};
-		8D979F95C79610D3868A805A /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				A3114DAA69BEBF0597C4D0C0 /* Foundation.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		9759DBFDC9030A2382F47BC8 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B0FC3380959FAB7EBE4C499E /* Foundation.framework */,
+				6B002D713D6D9BF182360E40 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BF30324355B0713FB7DA47F2 /* Products */ = {
+		06C977C16EE724E35E26A01F /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				3D2D7D14003B1322993340FF /* AuraMetronome.app */,
-				1FFB307EF3CFD2124F2CBB5E /* AuraMetronome Watch App.app */,
+				05866562672A7AF37A79F96A /* Foundation.framework */,
 			);
-			name = Products;
+			name = watchOS;
 			sourceTree = "<group>";
 		};
-		D27F0DC2EFD463FA68C5123B /* Frameworks */ = {
+		1310865DC90914F011B8CB44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9759DBFDC9030A2382F47BC8 /* iOS */,
-				8D979F95C79610D3868A805A /* watchOS */,
+				012DD66D41286311EAD6511D /* iOS */,
+				06C977C16EE724E35E26A01F /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F6C98471DD0268B0F8237A9C /* Sources */ = {
+		1EF9B5A186206906464CDEC7 = {
 			isa = PBXGroup;
 			children = (
-				6C3D7B2AEE7D7B4AD4C897A4 /* AuraMetronomeApp.swift */,
-				6536CFBD5F519CFBC05D718C /* AuraMetronomeiOSApp.swift */,
-				93F5718AC986EAB1D9846960 /* MetronomeEngine.swift */,
-				782B60652A572BFB2BC14A06 /* MainMetronomeView.swift */,
-				7583874F23D61C10CE3BEEF4 /* Assets.xcassets */,
-				158FE737FAB5753E70730BBA /* WatchAssets.xcassets */,
+				E323C300EED6C5453A022D7C /* Products */,
+				1310865DC90914F011B8CB44 /* Frameworks */,
+				8CA62F810E17B9A437826758 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		8CA62F810E17B9A437826758 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B134F9DAB2E55F6B1872806 /* AuraMetronomeApp.swift */,
+				AB545ECE0ADC42AE6E7FB709 /* AuraMetronomeiOSApp.swift */,
+				F474A2C98218B97CC12D2E75 /* MetronomeEngine.swift */,
+				3E45B7F35DFEC45750AE4EA4 /* MainMetronomeView.swift */,
+				5A0AC2B12AD8A1CC15434FB8 /* Assets.xcassets */,
+				11AA95198678F937309983FD /* WatchAssets.xcassets */,
 			);
 			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		E323C300EED6C5453A022D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D18F1F3A38D0D8864F33B /* AuraMetronome.app */,
+				89A2222A1B20439EB321C524 /* AuraMetronome Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		797057089AF4A3B974D4B67F /* AuraMetronome Watch App */ = {
+		5F6FB57EC1D752D2B92E23B3 /* AuraMetronome Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CB701AF11B7001EA355EB0C /* Build configuration list for PBXNativeTarget "AuraMetronome Watch App" */;
+			buildConfigurationList = 904D539DA96DD11DABDEC1B0 /* Build configuration list for PBXNativeTarget "AuraMetronome Watch App" */;
 			buildPhases = (
-				B36A97F7C01FA300AA7820A5 /* Sources */,
-				D86E5A46EE049471368679A4 /* Frameworks */,
-				BE4D93C5E3E7DFAC171CA189 /* Resources */,
+				2F8373A03A7E80AC9A2EC5D1 /* Sources */,
+				4C60544B4FDB6C3C753AADBA /* Frameworks */,
+				907A118F45DC1618D46822D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,38 +149,38 @@
 			);
 			name = "AuraMetronome Watch App";
 			productName = "AuraMetronome Watch App";
-			productReference = 1FFB307EF3CFD2124F2CBB5E /* AuraMetronome Watch App.app */;
+			productReference = 89A2222A1B20439EB321C524 /* AuraMetronome Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD53CF738D2D514D424F8982 /* AuraMetronome */ = {
+		9CAB25B4B0A63AD4CEF66DB1 /* AuraMetronome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5C60C6A19201E3E3FE152A2 /* Build configuration list for PBXNativeTarget "AuraMetronome" */;
+			buildConfigurationList = 1E1809183FC159812BDE54C9 /* Build configuration list for PBXNativeTarget "AuraMetronome" */;
 			buildPhases = (
-				58082B3A3F786D552242F138 /* Sources */,
-				2C45CAF34884C7EEF973459B /* Frameworks */,
-				9DA208F0DADA928539367DE9 /* Resources */,
-				CAE0ED0505A839E03A559C82 /* Embed Watch Content */,
+				DC0F5DA35BE03B213C865AAF /* Sources */,
+				748FDB40B01390EA9975CC0B /* Frameworks */,
+				985E51304B85EEF1E4D41BD2 /* Resources */,
+				85DE58B0EAC0E97E3506E960 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				249FA1EC99071D845732B0E7 /* PBXTargetDependency */,
+				97209DD7A07AD01A8C5BC757 /* PBXTargetDependency */,
 			);
 			name = AuraMetronome;
 			productName = AuraMetronome;
-			productReference = 3D2D7D14003B1322993340FF /* AuraMetronome.app */;
+			productReference = 8B2D18F1F3A38D0D8864F33B /* AuraMetronome.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		808DB9CD4BA5BAD863E0DD97 /* Project object */ = {
+		1BFB8B386095998F5F922896 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 1AFCDD59E9368C92DA0A7A5E /* Build configuration list for PBXProject "AuraMetronome" */;
+			buildConfigurationList = FE82B7EB76D407CB0B1E560C /* Build configuration list for PBXProject "AuraMetronome" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,95 +188,70 @@
 				en,
 				Base,
 			);
-			mainGroup = 3BA8A2052F1F9D64E01E0798;
+			mainGroup = 1EF9B5A186206906464CDEC7;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = BF30324355B0713FB7DA47F2 /* Products */;
+			productRefGroup = E323C300EED6C5453A022D7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD53CF738D2D514D424F8982 /* AuraMetronome */,
-				797057089AF4A3B974D4B67F /* AuraMetronome Watch App */,
+				9CAB25B4B0A63AD4CEF66DB1 /* AuraMetronome */,
+				5F6FB57EC1D752D2B92E23B3 /* AuraMetronome Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9DA208F0DADA928539367DE9 /* Resources */ = {
+		907A118F45DC1618D46822D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D54E1A3BD58BD32E1FA6B86 /* Assets.xcassets in Resources */,
+				DA1358C9F1F275AE93C82080 /* WatchAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE4D93C5E3E7DFAC171CA189 /* Resources */ = {
+		985E51304B85EEF1E4D41BD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F93CA6E8236728E52E39B68 /* WatchAssets.xcassets in Resources */,
+				4EBC457FF31DCE56B929AB02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		58082B3A3F786D552242F138 /* Sources */ = {
+		2F8373A03A7E80AC9A2EC5D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6251965EE0764940E8DB7EC2 /* AuraMetronomeiOSApp.swift in Sources */,
+				44D9FEDB726AC557DE5FFC2D /* AuraMetronomeApp.swift in Sources */,
+				9037F9C6C1923E853C547284 /* MetronomeEngine.swift in Sources */,
+				3FAA8A941B5AD4D3F5F3718E /* MainMetronomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B36A97F7C01FA300AA7820A5 /* Sources */ = {
+		DC0F5DA35BE03B213C865AAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BC37687F775FD8D1370361 /* AuraMetronomeApp.swift in Sources */,
-				32FB94B7760108A4C7AD01AD /* MetronomeEngine.swift in Sources */,
-				CBE8AD1EB1C26781F1A24FD6 /* MainMetronomeView.swift in Sources */,
+				0E0CE173A1A5F6125A0FF17B /* AuraMetronomeiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		249FA1EC99071D845732B0E7 /* PBXTargetDependency */ = {
+		97209DD7A07AD01A8C5BC757 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AuraMetronome Watch App";
-			target = 797057089AF4A3B974D4B67F /* AuraMetronome Watch App */;
-			targetProxy = 5ABB629BC37CC05BB95A6AAF /* PBXContainerItemProxy */;
+			target = 5F6FB57EC1D752D2B92E23B3 /* AuraMetronome Watch App */;
+			targetProxy = F1A85BA0691E83BEF5A2B868 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2381523C5464DB4424D57D8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_WKBackgroundModes = "self-care";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.air.AuraMetronome;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				MARKETING_VERSION = 1.0.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraMetronome.watchapp;
-				PRODUCT_NAME = "AuraMetronome Watch App";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchos watchsimulator";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		375DA0FFA9B83547563C1312 /* Release */ = {
+		18CE3D00309875E95D75087C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,13 +305,15 @@
 			};
 			name = Release;
 		};
-		479088BFE87EEE219B2EDB7D /* Release */ = {
+		404347EE555A471F4D41C078 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleIconName = AppIcon;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
@@ -355,7 +332,59 @@
 			};
 			name = Release;
 		};
-		636527A02A2D68EC721FA7AE /* Debug */ = {
+		73C2F76C83E9289AF4455C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_WKBackgroundModes = "self-care";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.air.AuraMetronome;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraMetronome.watchapp;
+				PRODUCT_NAME = "AuraMetronome Watch App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		9E3EA0BDF4945411AB3C86CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraMetronome;
+				PRODUCT_NAME = AuraMetronome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B380B622E6E70AE8221AF448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,13 +445,14 @@
 			};
 			name = Debug;
 		};
-		8D60374C463C4896F32113BC /* Release */ = {
+		B86E1C696F961C0B52FA3DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_WKBackgroundModes = "self-care";
@@ -442,61 +472,37 @@
 			};
 			name = Release;
 		};
-		FA08AEC269581C5362DF3BDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleIconName = AppIcon;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraMetronome;
-				PRODUCT_NAME = AuraMetronome;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AFCDD59E9368C92DA0A7A5E /* Build configuration list for PBXProject "AuraMetronome" */ = {
+		1E1809183FC159812BDE54C9 /* Build configuration list for PBXNativeTarget "AuraMetronome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				636527A02A2D68EC721FA7AE /* Debug */,
-				375DA0FFA9B83547563C1312 /* Release */,
+				404347EE555A471F4D41C078 /* Release */,
+				9E3EA0BDF4945411AB3C86CC /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CB701AF11B7001EA355EB0C /* Build configuration list for PBXNativeTarget "AuraMetronome Watch App" */ = {
+		904D539DA96DD11DABDEC1B0 /* Build configuration list for PBXNativeTarget "AuraMetronome Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D60374C463C4896F32113BC /* Release */,
-				2381523C5464DB4424D57D8A /* Debug */,
+				B86E1C696F961C0B52FA3DF9 /* Release */,
+				73C2F76C83E9289AF4455C75 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5C60C6A19201E3E3FE152A2 /* Build configuration list for PBXNativeTarget "AuraMetronome" */ = {
+		FE82B7EB76D407CB0B1E560C /* Build configuration list for PBXProject "AuraMetronome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				479088BFE87EEE219B2EDB7D /* Release */,
-				FA08AEC269581C5362DF3BDD /* Debug */,
+				B380B622E6E70AE8221AF448 /* Debug */,
+				18CE3D00309875E95D75087C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 808DB9CD4BA5BAD863E0DD97 /* Project object */;
+	rootObject = 1BFB8B386095998F5F922896 /* Project object */;
 }

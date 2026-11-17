@@ -1,7 +1,10 @@
 require 'xcodeproj'
 
+base_dir = File.expand_path(__dir__)
+Dir.chdir(base_dir)
+
 project_name = 'AuraMetronome'
-project_path = "#{project_name}.xcodeproj"
+project_path = File.join(base_dir, "#{project_name}.xcodeproj")
 
 # 1. Create the project
 project = Xcodeproj::Project.new(project_path)
